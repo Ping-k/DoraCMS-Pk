@@ -5,8 +5,8 @@
 
 module.exports = {
 
-    session_secret: 'doracms', // 务必修改
-    auth_cookie_name: 'doracms',
+    session_secret: 'pingk', // 务必修改
+    auth_cookie_name: 'pingk',
     cache_maxAge: Math.floor(Date.now() / 1000) + 24 * 60 * 60, //1 hours
     serverPort: 8080,
     lang: 'zh-CN', // 设置默认语言
@@ -14,12 +14,12 @@ module.exports = {
 
     // 密码盐
     encrypt_key: 'dora',
-    salt_aes_key: "doracms_", // 可以解密，秘钥必须为：8/16/32位
+    salt_aes_key: "pingk_", // 可以解密，秘钥必须为：8/16/32位
     salt_md5_key: "dora", // MD5的盐，用于加密密码
 
     //    数据库配置
-    URL: 'mongodb://127.0.0.1:27017/doracms2',
-    DB: 'doracms2',
+    URL: 'mongodb://127.0.0.1:27017/pingk',
+    DB: 'pingk',
     HOST: '127.0.0.1',
     PORT: 27017,
     USERNAME: 'doramart',
@@ -45,7 +45,7 @@ module.exports = {
     DORACMSAPI: 'http://api.html-js.cn', // 系统服务提供商
     SYSTEMTEMPFORDER: process.cwd() + '/views/', // 系统模板安装目录
     TEMPSTATICFOLDER: process.cwd() + '/public/themes/', // 模板静态文件路径
-    SYSTEMLOGPATH: '/home/doraData/logsdir/doracms', // 服务器日志保存目录
+    SYSTEMLOGPATH: '/home/doraData/logsdir/pingk', // 服务器日志保存目录
 
     // 邮件相关设置
     email_findPsd: 'findPsd',
